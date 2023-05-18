@@ -19,7 +19,6 @@ public class Ata {     public static void main(String[] args) {
 
         System.out.println("Indeks : " + liste.lastIndexOf(20));
 
-        // Listeyi Object[] dizisi olarak geri verir.
         Object[] dizi = liste.toArray();
         System.out.println("Object dizisinin ilk elemanı :" + dizi[0]);
 
