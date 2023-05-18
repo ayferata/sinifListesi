@@ -15,7 +15,6 @@ public class Ata {     public static void main(String[] args) {
 
         System.out.println("Indeks : " + liste.indexOf(20));
 
-        // Bulamazsa -1 döndürür
         System.out.println("Indeks :" + liste.indexOf(100));
 
         // Bulduğu son indeksi verir
