@@ -22,7 +22,6 @@ public class Ata {     public static void main(String[] args) {
         Object[] dizi = liste.toArray();
         System.out.println("Object dizisinin ilk elemanı :" + dizi[0]);
 
-        // Liste veri türünde alt bir liste oluşturdu
         MyList<Integer> altListem = liste.subList(0, 3);
         System.out.println(altListem.toString());
 
