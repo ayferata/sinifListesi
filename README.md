@@ -25,7 +25,6 @@ public class Ata {     public static void main(String[] args) {
         MyList<Integer> altListem = liste.subList(0, 3);
         System.out.println(altListem.toString());
 
-        // Değerim listedeki olup olmadığını sorguladı
         System.out.println("Listemde 20 değeri : " + liste.contains(20));
         System.out.println("Listemde 120 değeri : " + liste.contains(120));
 
