@@ -13,7 +13,6 @@ public class Ata {     public static void main(String[] args) {
 
         System.out.println("Liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
 
-        // Bulduğu ilk indeksi verir
         System.out.println("Indeks : " + liste.indexOf(20));
 
         // Bulamazsa -1 döndürür
