@@ -17,7 +17,6 @@ public class Ata {     public static void main(String[] args) {
 
         System.out.println("Indeks :" + liste.indexOf(100));
 
-        // Bulduğu son indeksi verir
         System.out.println("Indeks : " + liste.lastIndexOf(20));
 
         // Listeyi Object[] dizisi olarak geri verir.
