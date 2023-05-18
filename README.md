@@ -28,7 +28,6 @@ public class Ata {     public static void main(String[] args) {
         System.out.println("Listemde 20 değeri : " + liste.contains(20));
         System.out.println("Listemde 120 değeri : " + liste.contains(120));
 
-        // Listeyi tamamen boşaltır ve varsayılan boyutuna çevirir
         liste.clear();
         System.out.println(liste.toString());
         
