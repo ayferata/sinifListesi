@@ -1,5 +1,5 @@
 # sinifListesi
-public class Ata {     public static void main(String[] args) {
+public class Ayfer {     public static void main(String[] args) {
         MyList<Integer> liste = new MyList<>();
         System.out.println("Liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
         liste.add(10);
